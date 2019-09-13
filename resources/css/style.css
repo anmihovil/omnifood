@@ -215,8 +215,34 @@ header {
 }
 
 /* ------------- FEATURES --------------- */
+
+
+.section-features .row .col i {
+    position: absolute;
+    margin-top: 25px;
+    justify-content: center;
+    top: -80px;
+}
+
 .section-features, .long-copy {
     margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.section-features .icon-container {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-features .icon-container i {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
 }
 
 /* --------------- MEALS ---------------- */
@@ -287,7 +313,8 @@ header {
 }
 
 .works-step {
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
+    display: block; 
 }
 
 .works-step:last-of-type {
