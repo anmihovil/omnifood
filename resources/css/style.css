@@ -322,22 +322,35 @@ header {
 }
 
 .works-step div {
+    display: inline-block;
+    padding: 5px;
+     
+    margin-right: 25px;
+}
+
+.works-step .step-btn {
     color: #cf6d17;
     border: 2px solid #cf6d17;
     display: inline-block;
     border-radius: 50%;
     height: 55px;
     width: 55px;
+    font-size: 150%;
     text-align: center;
-    padding: 5px;
-    font-size: 150%; 
-    margin-right: 25px;
+}
+
+.works-step .step-txt {
+    width: 70%;
+    vertical-align: middle;
+    text-align: justify;
 }
 
 .btn-app img {
     height: 50px;
     width: auto;
-    margin-right: 20px;
+    margin-top: 0;
+    margin-left: 25px;
+
 }
 
 /* ---------- CITIES ------------- */
