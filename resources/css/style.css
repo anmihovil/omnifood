@@ -440,3 +440,79 @@ cite img {
     margin: 0 10px;
     vertical-align: middle;
 }
+
+/* ------------ SIGN UP - MEAL PLANS ----------- */
+
+.section-plans {
+    background-color: #f4f4f4; 
+}
+
+.plan-box {
+    background-color: #fff; 
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center; 
+    border: none;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #cf6d17;
+}
+
+.plan-price-meal {
+    font-size: 90%;
+    line-height: 140%;
+    text-align: center;    
+}
+
+.plan-price span {
+    font-size: 50%;
+    font-weight: 300; 
+    color: #cf6d17;
+}
+
+.section-plans .btn-ghost {
+    border: 1px solid #cf6d17;
+    color: #cf6d17; 
+    margin-left: 0;
+}
+
+.section-plans .btn-ghost:hover {
+    border: 1px solid #cf6d17;
+    background-color: #cf6d17;
+    color: #fff;
+} 
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
