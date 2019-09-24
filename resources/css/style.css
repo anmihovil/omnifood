@@ -539,12 +539,19 @@ textarea {
     border: 1px solid #ccc; 
 }
 
+input[type=submit]{
+    width: 30%;
+    margin-left: 35%;
+}
+
 input[type=checkbox] {
     margin: 10px 5px 10px 0; 
 }
 
 *:focus {outline: none}
 
+
+/* -----------  Footer ----------- */
 
 
 
