@@ -541,7 +541,7 @@ textarea {
 
 input[type=submit]{
     width: 30%;
-    margin-left: 35%;
+    margin-left: 0;
 }
 
 input[type=checkbox] {
@@ -554,6 +554,7 @@ input[type=checkbox] {
 /* -----------  Footer ----------- */
 footer {
     background-color: #333;
+    font-size: 80%;
     padding: 50px;
 }
 
@@ -593,20 +594,39 @@ footer {
     text-decoration: none;
     border: 0;
     color: #ddd;
-    transition: color 0.2s;
+    transition: color ease-in-out 0.2s;
 }
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 180%;
+    font-size: 160%;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+    transition: color ease-in-out 0.2s;
+}
+
+.fa-twitter:hover {
+    color: #55acee;
+    transition: color ease-in-out 0.2s;
+}
+
+.fa-instagram:hover {
+    color: #e95950;
+    transition: color ease-in-out 0.2s;
+}
+
+.fa-whatsapp:hover {
+    color: #4dc247;
+    transition: color ease-in-out 0.2s;
 }
 
 footer p {
-    margin-top: 30px;
+    margin-top: 20px;
     color: #888;
     text-align: center;
     font-size: 90%;
 }
-
 
 
